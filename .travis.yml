@@ -25,4 +25,4 @@ android:
 script:
     - echo "Assembling..."
     - chmod +x ./gradlew
-    - ./gradlew zapato:check --daemon
+    - ./gradlew app:check --daemon
